@@ -1,7 +1,9 @@
-x, oprnd, y = input().split()
+def add(a, b):
+    return a + b
 
-x = int(x)
-y = int(y)
-
-if oprnd == "+":
-    print(x + y)
+if __name__ == "__main__":
+    oprnd = "+";
+    a = 2
+    b = 3
+    if oprnd == "+":
+        print(add(a, b))
