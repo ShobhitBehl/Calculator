@@ -30,7 +30,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                build 'calculator'
+                build 'Main calculator'
             }
         }
     }
