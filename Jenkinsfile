@@ -30,7 +30,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                build 'Main calculator'
+                build 'calculator-rundeck'
             }
         }
     }
