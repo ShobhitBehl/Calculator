@@ -9,5 +9,5 @@ def test_sub():
 def test_mul():
     assert mul(5,3) == 15
 
-def test_div()
+def test_div():
     assert div(6,3) == 2
