@@ -12,10 +12,12 @@ if __name__ == "__main__":
     b = 3
     if oprnd == "+":
         summ = add(a, b)
+        print(summ)
 
     oprnd = "-"
     if oprnd == "-":
         diff = sub(a, b)
+        print(diff)
 
     logging.basicConfig(filename="logFile.txt",
                 filemode='a',
