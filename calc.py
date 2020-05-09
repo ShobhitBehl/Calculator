@@ -28,7 +28,7 @@ if __name__ == "__main__":
     oprnd = "*"
     if oprnd == "*":
         prod = mul(a, b)
-        print(mul)
+        print(prod)
 
     oprnd = "/"
     if oprnd == "/":
